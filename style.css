@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.artwork {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.shape:nth-child(1) {
+    top: 0;
+    left: 0;
+}.shape:nth-child(2) {
+    top: 0;
+    right: 0;
+    background-color: #e74c3c;
+}
+
+.shape:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    background-color: #2ecc71;
+}
+.shape:nth-child(4) {
+    bottom: 0;
+    right: 0;
+    background-color: #f1c40f;
+}
